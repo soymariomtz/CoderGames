@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>CoderGames</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="bg-header">
+            <img alt="coderhouse" src="assets/images/logo.png" width="350px">
+        </div>
+    </header>
+    <!-- Input busqueda y título de horarios -->
+    <section class="center-data container mt-2">
+        <h2 id="service">Horario de Atención:</h2>
+        <div>
+            <form name="searchForm">
+                <input type="text" name="search">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </form>
+        </div>
+        <!-- Div de los productos -->
+        <div class="row" id="productsContainer">
+        </div>                
+    </section>
+    <!-- Carrito -->
+    <div class="col-lg-2 divPay">
+    <span class="spanCart">Carrito</span>                
+    <ul id="game-container"></ul>
+    <p class="totalPrice"></p>
+    <div class="btnCart">
+        <button type="submit" class="btnCancel btn btn-secondary">Cancelar</button>
+        <button type="submit" class="btnBuy btn btn-primary">Comprar</button>
+    </div>
+    </div>              
+    <div>
+        <button class="carro">Carro</button>
+    </div>
+    <!-- Modal en botón comprar -->
+    <div class="modal fade" id="productModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="d-block modal-header">
+                    <h2 class="text-center modal-tittle">Checkout</h4>
+                    <button type="button" class="close">
+                        <span aria-hidden="true"></span>
+                    </button>                
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="mt-5">
+        <div class="container text-center">           
+        © 2020 CoderGames, todos los derechos reservados.   
+        </div>        
+    </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="assets/js/modal.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/carro.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+</body>
+</html>

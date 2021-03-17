@@ -1,0 +1,113 @@
+[{
+    "id": 0,
+    "name" : "Sony Playstation 5",
+    "description" : "",
+    "price" : 990000,
+    "available": true,
+    "tags" : ["sony", "fisica", "games", "consola", "ps5"],
+    "thumbnail" : "assets/images/ps5.png"
+},{
+    "id": 1,
+    "name" : "Sony Playstation 5 Digital",
+    "description" : "",
+    "price" : 75999,
+    "available": true,
+    "tags" : ["sony", "digital", "games", "consola", "ps5"],
+    "thumbnail" : "assets/images/ps5Digital.png"
+},{
+    "id": 2,
+    "name" : "Estación de recarga para el DualSense",
+    "description" : "",
+    "price" : 20000,
+    "available": true,
+    "tags" : ["sony", "joystick", "games", "recarga", "ps5"],
+    "thumbnail" : "assets/images/recargaPs5.png"
+},{
+    "id": 3,
+    "name" : "Control inalámbrico DualSense",
+    "description" : "",
+    "price" : 25000,
+    "available": true,
+    "tags" : ["sony", "joystick", "games", "ps5"],
+    "thumbnail" : "assets/images/joystickPs5.png"
+},{
+    "id": 4,
+    "name" : "Auriculares inalámbricos PULSE 3D",
+    "description" : "",
+    "price" : 30000,
+    "available": true,
+    "tags" : ["sony", "auricular", "games", "consola", "ps5"],
+    "thumbnail" : "assets/images/pulse3d.png"
+},{
+    "id": 5,
+    "name" : "Cámara HD Ps5",
+    "description" : "",
+    "price" : 40000,
+    "available": true,
+    "tags" : ["sony", "camara", "games", "ps5"],
+    "thumbnail" : "assets/images/camara.png"
+},{
+    "id": 6,
+    "name" : "Control multimedia Ps5",
+    "description" : " ",
+    "price" : 35000,
+    "available": true,
+    "tags" : ["sony", "control", "games", "ps5"],
+    "thumbnail" : "assets/images/controlPs5.png"
+},{
+    "id": 7,
+    "name" : "Gran Turismo 7 Ps5",
+    "description" : " ",
+    "price" : 15000,
+    "available": true,
+    "tags" : ["sony", "gt7", "games", "gran","turismo", "ps5"],
+    "thumbnail" : "assets/images/gt7.png"
+},{
+    "id": 8,
+    "name" : "Sony Playstation 4 PRO 1tb Special Edition White",
+    "description" : "",
+    "price" : 60000,
+    "available": true,
+    "tags" : ["sony", "white", "games", "consola", "ps4"],
+    "thumbnail" : "assets/images/ps4Blanca.png"
+},{
+    "id": 9,
+    "name" : "Sony Playstation 4 Slim 1tb Fifa 20 Bundle Jet Black",
+    "description" : " ",
+    "price" : 54000,
+    "available": true,
+    "tags" : ["sony", "black", "games", "consola"],
+    "thumbnail" : "assets/images/ps4Black.png"
+},{
+    "id": 10,
+    "name" : "Sony Playstation 4 FIFA 20 Collection Edition",
+    "description" : "",
+    "price" : 2000,
+    "available": true,
+    "tags" : ["20", "fifa", "games", "futbol"],
+    "thumbnail" : "assets/images/Fifa20.jpg"
+},{
+    "id": 11,
+    "name" : "Resident Evil 3",
+    "description" : "",
+    "price" : 2000,
+    "available": true,
+    "tags" : ["zombie", "resident", "games", "evil"],
+    "thumbnail" : "assets/images/ResidentEvil.jpg"
+},{
+    "id": 12,
+    "name" : "Super Mario Oddyssey",
+    "description" : "",
+    "price" : 2000,
+    "available": true,
+    "tags" : ["mario", "super","oddyssey", "games", "4"],
+    "thumbnail" : "assets/images/mario.png"
+},{
+    "id": 13,
+    "name" : "The Last Of Us Part II",
+    "description" : "",
+    "price" : 2000,
+    "available": true,
+    "tags" : ["survive", "zombie", "games", "last"],
+    "thumbnail" : "assets/images/TheLastOfUs.jpg"
+}]
